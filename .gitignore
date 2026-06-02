@@ -1,0 +1,40 @@
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Editors ----
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---- Local agent install artifacts (from running ./install.sh inside this repo) ----
+# These are install *destinations*, not the tracked source folders (claude-code/, opencode/, etc.)
+.claude/
+.opencode/
+.agents/
+.github/skills/
+
+# ---- Packaging / build output ----
+*.skill
+*.zip
+dist/
+
+# ---- Node (if you add tooling/tests later) ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ---- Python (if you add eval/sync scripts later) ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- Env & logs ----
+.env
+.env.*
+!.env.example
+*.log

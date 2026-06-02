@@ -1,0 +1,10 @@
+{
+  "name": "solidifier",
+  "description": "Apply SOLID principles and design patterns to backend code with judgment and restraint. Refactor, review, or structure backend code without over-engineering, scoped to chosen parts of the codebase and tuned by a configurable rigor level.",
+  "version": "0.1.0",
+  "author": { "name": "Fernando José Rodríguez Ramírez" },
+  "homepage": "https://github.com/<your-github-username>/solidifier",
+  "repository": "https://github.com/<your-github-username>/solidifier",
+  "license": "MIT",
+  "keywords": ["solid", "design-patterns", "refactoring", "backend", "architecture", "code-quality"]
+}

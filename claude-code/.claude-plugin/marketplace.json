@@ -1,0 +1,16 @@
+{
+  "name": "solidifier-marketplace",
+  "owner": { "name": "Fernando José Rodríguez Ramírez" },
+  "description": "Backend code-quality tooling: SOLID principles and design patterns applied with judgment and restraint.",
+  "plugins": [
+    {
+      "name": "solidifier",
+      "source": "./plugins/solidifier",
+      "description": "Apply SOLID principles and design patterns to backend code without over-engineering, with a configurable rigor dial.",
+      "version": "0.1.0",
+      "category": "code-quality",
+      "keywords": ["solid", "design-patterns", "refactoring", "backend", "architecture"],
+      "license": "MIT"
+    }
+  ]
+}
