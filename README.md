@@ -87,3 +87,4 @@ MIT — see [LICENSE](LICENSE).
 ---
 
 > Status: **0.1.0 — initial draft.** Validated structurally, not yet exercised against real codebases at multiple rigor levels.
+
