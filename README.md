@@ -10,8 +10,8 @@ Built on the **[Agent Skills open standard](https://agentskills.io)** (`SKILL.md
 
 ```
 .
-├── claude-code/                     # Claude Code: plugin + marketplace
-│   ├── .claude-plugin/marketplace.json
+├── .claude-plugin/marketplace.json  # Claude Code: marketplace entry point
+├── claude-code/                     # Claude Code: plugin
 │   └── plugins/solidifier/
 │       ├── .claude-plugin/plugin.json
 │       └── skills/solidifier/{SKILL.md, references/}
@@ -48,7 +48,7 @@ Or copy the folder by hand into the location each agent scans:
 ### Claude Code via marketplace (optional, one command)
 
 ```shell
-/plugin marketplace add <your-github-username>/solidifier
+/plugin marketplace add FernandoJRR/solidifier
 /plugin install solidifier@solidifier-marketplace
 ```
 
@@ -217,4 +217,4 @@ MIT — see [LICENSE](LICENSE).
 
 ---
 
-> Status: **0.1.0 — initial draft.** Validated structurally, not yet exercised against real codebases at multiple rigor levels.
+> Status: **0.1.0** — Validated against real backend code across all four rigor levels.
